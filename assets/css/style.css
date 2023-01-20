@@ -1,0 +1,48 @@
+.navbar {
+    background-color: white;
+    position: relative;
+    margin: 20px;
+}
+
+.logo {
+    height: 22px;
+    cursor: auto;
+}
+
+/* Style navigation menu links */
+.navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.navbar a.icon {
+    background: #6E07F3;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.navbar #myLinks {
+    display: none;
+    background-color: #6E07F3;
+}
+
+.navbar #myLinks :hover{
+    background-color: white;
+    color: #6E07F3;
+}
+
+.navbar img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
