@@ -46,3 +46,53 @@
     width: 48px;
     cursor: pointer;
 }
+
+.home {
+    height: 100vh;
+}
+
+.socials ul {
+    list-style: none;
+}
+
+.socials {
+    top: 60%;
+    position: absolute;
+    left: -13rem;
+    -webkit-animation: social-links 0.5s;
+    animation: social-links 0.5s;
+}
+
+.socials ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    width: 200px;
+    text-align: right;
+    font-weight: bold;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.socials ul li a i {
+    padding-left: 24px;
+}
+
+.socials ul li .linkedin {
+    background: #0077b5;
+}
+
+.socials ul li .github {
+    background: #2e3031;
+}
+
+.socials ul li .email {
+    background: #e44e58;
+}
+
+.socials ul li a:hover {
+    -webkit-transform: translate(120px, 0);
+    transform: translate(120px, 0);
+}
