@@ -1,98 +1,132 @@
+body {
+  font-family: "eurostile", sans-serif;
+}
+
 .navbar {
-    background-color: white;
-    position: relative;
-    margin: 20px;
+  background-color: white;
+  position: relative;
+  margin: 20px;
 }
 
 .logo {
-    height: 22px;
-    cursor: auto;
+  height: 22px;
+  cursor: auto;
 }
 
 /* Style navigation menu links */
 .navbar a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
 
 /* Style the hamburger menu */
 .navbar a.icon {
-    background: #6E07F3;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
+  background: #6e07f3;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .navbar #myLinks {
-    display: none;
-    background-color: #6E07F3;
+  display: none;
+  background-color: #6e07f3;
 }
 
-.navbar #myLinks :hover{
-    background-color: white;
-    color: #6E07F3;
+.navbar #myLinks :hover {
+  background-color: white;
+  color: #6e07f3;
 }
 
-.navbar img{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 48px;
-    width: 48px;
-    cursor: pointer;
+.navbar img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
 }
 
 .home {
-    height: 100vh;
+  height: 120vh;
+  position: relative;
+}
+
+.title {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.title p {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .socials ul {
-    list-style: none;
+  list-style: none;
 }
 
 .socials {
-    top: 60%;
-    position: absolute;
-    left: -13rem;
-    -webkit-animation: social-links 0.5s;
-    animation: social-links 0.5s;
+  top: 35%;
+  position: absolute;
+  left: -14rem;
+  -webkit-animation: social-links 0.5s;
+  animation: social-links 0.5s;
 }
 
 .socials ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    display: block;
-    width: 200px;
-    text-align: right;
-    font-weight: bold;
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  display: block;
+  width: 200px;
+  text-align: right;
+  font-weight: bold;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .socials ul li a i {
-    padding-left: 24px;
+  padding-left: 24px;
 }
 
 .socials ul li .linkedin {
-    background: #0077b5;
+  background: #0077b5;
 }
 
 .socials ul li .github {
-    background: #2e3031;
+  background: #2e3031;
 }
 
 .socials ul li .email {
-    background: #e44e58;
+  background: #e44e58;
 }
 
 .socials ul li a:hover {
-    -webkit-transform: translate(120px, 0);
-    transform: translate(120px, 0);
+  -webkit-transform: translate(120px, 0);
+  transform: translate(120px, 0);
+}
+
+.devices {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 50%;
+}
+
+.about {
+  background-color: #6e07f3;
 }
