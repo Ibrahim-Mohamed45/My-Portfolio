@@ -1,5 +1,6 @@
 body {
   font-family: "eurostile", sans-serif;
+  margin: 0px;
 }
 
 .navbar {
@@ -51,7 +52,7 @@ body {
   cursor: pointer;
 }
 
-.home {
+#home {
   height: 120vh;
   position: relative;
 }
@@ -80,7 +81,7 @@ body {
 .socials {
   top: 35%;
   position: absolute;
-  left: -14rem;
+  left: -13.2rem;
   -webkit-animation: social-links 0.5s;
   animation: social-links 0.5s;
 }
@@ -127,6 +128,19 @@ body {
   width: 50%;
 }
 
-.about {
+#about div {
   background-color: #6e07f3;
+  height: 60vh;
+}
+
+#about h2 {
+  text-align: center;
+  padding-top: 60px;
+  margin-block-start: 0em;
+  color: white;
+}
+
+#about p {
+  text-align: center;
+  color: white;
 }
