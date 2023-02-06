@@ -128,19 +128,46 @@ body {
   width: 50%;
 }
 
-#about div {
+#about {
   background-color: #6e07f3;
-  height: 60vh;
 }
 
-#about h2 {
+.about-header {
   text-align: center;
   padding-top: 60px;
   margin-block-start: 0em;
   color: white;
 }
 
-#about p {
+.info {
   text-align: center;
   color: white;
 }
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  width: 25%;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#front-end {
+  background-color: #5BE9B9;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.purple {
+  color: #6e07f3;
+}
+
+
+
