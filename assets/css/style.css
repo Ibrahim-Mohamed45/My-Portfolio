@@ -56,14 +56,15 @@ body {
 }
 
 #home {
-  height: 120vh;
   position: relative;
 }
 
 .title {
   display: block;
   padding: 0.75rem;
+  padding-bottom: 20vh;
   text-align: center;
+  height: 100%;
 }
 
 .title h1 {
@@ -124,11 +125,10 @@ body {
 }
 
 .devices {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
   width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #about {
@@ -137,14 +137,17 @@ body {
 
 .about-header {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 4vh;
   margin-block-start: 0em;
   color: white;
 }
 
 .info {
-  text-align: center;
   color: white;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
 }
 
 .cardContainer {
@@ -155,7 +158,7 @@ body {
 .skills-card {
   background-color: white;
   color: black;
-  width: 25%;
+  width: 400px;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
@@ -165,7 +168,7 @@ body {
 #front-end {
   background-color: #5BE9B9;
   border-radius: 50%;
-  margin-top: 10px;
+  margin-bottom: 8px;
 }
 
 .purple {
@@ -190,7 +193,6 @@ body {
 .card-body {
   color: white !important;
   background: #6e07f3 !important;
-  height: 23vh;
 }
 
 .card-text {
@@ -209,18 +211,26 @@ body {
 
 #contact {
   width: 100%;
-  height: 100vh;
   background: #6e07f3;
+}
+
+.Sub-Heading-C {
+  padding: 20px;
+  color: #fff;
+}
+
+.form-div {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 8%;
 }
 
 form {
   background: #fff;
   display: flex;
   flex-direction: column;
-  padding: 20px 4vw;
+  padding: 30px 4vw;
   width: 90%;
   max-width: 600px;
   border-radius: 10px;
@@ -253,5 +263,40 @@ form button {
   width: 150px;
   margin: 20px auto 0;
   border-radius: 30px;
+}
 
+.footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.fa-github {
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
+}
+
+@media only screen and (max-width: 1000px) {
+  .devices {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .info {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .skills-card {
+    width: 90%;
+  }
 }
